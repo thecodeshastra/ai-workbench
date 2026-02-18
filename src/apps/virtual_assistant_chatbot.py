@@ -90,5 +90,11 @@ demo = gr.ChatInterface(
     description="An AI assistant that represents a real person, plans actions, uses tools, and learns over time.",
 )
 
-if __name__ == "__main__":
+
+def main():
+    """Main function to launch the chatbot."""
     demo.launch()
+
+
+if __name__ == "__main__":
+    main()
